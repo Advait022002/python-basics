@@ -1,1 +1,2 @@
-# python-basics
+* covers the basics of python
+* beginner level programs
