@@ -1,0 +1,16 @@
+def palin(n,rev):
+    if (rev==n):
+        return True
+    else :
+        return False
+n=int(input("enter no."))
+t=n
+rev=0
+while t>=0:
+    d=t%10
+    rev=(rev*10)+d
+    t/=10
+if palin(n,rev)==True:    
+    print("PALINDROME")
+else :
+    print("not palindrome")
