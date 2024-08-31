@@ -1,1 +1,15 @@
-
+def arms(num):
+  t=num
+  sum=0
+  p=len((str)num)
+  while num>=0:
+    d=t%10
+    sum+=d**p
+    t/=10
+  return num==sum
+num=int(input("enter a no.)
+if arms(num):
+ print("no.is armstrong")
+else:
+ print ("error")
+    
