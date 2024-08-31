@@ -1,0 +1,14 @@
+def cal(n1,n2,o):
+  if o=='+':
+    r=n1+n2
+  if o=='+':
+    r=n1-n2
+  if o=='+':
+    r=n1*n2
+  if o=='+':
+    r=n1/n2
+  return r
+n1=int(input("enter nos.")
+n2=int (input())
+o=str(input("operator"))
+print(cal(n1,n2,o))
